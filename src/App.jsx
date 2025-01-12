@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <main>
-        <h1>Track Your Expense <span style={{color: 'red'}}>(You can right-click to edit or delete a row in the table)</span></h1>
+        <h1>Track Your Expense <span style={{color: 'red'}} className="note">(You can right-click to edit or delete a row in the table)</span></h1>
         <div className="expense-tracker">
           <ExpenseForm
             setExpenses={setExpenses}

@@ -154,4 +154,7 @@ main {
   .expense-tracker {
     flex-direction: column;
   }
+  .note {
+      display: none;
+  }
 }
