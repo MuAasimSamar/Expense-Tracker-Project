@@ -17,6 +17,7 @@ function ExpenseTable({ expenses, setExpense, setExpenses, setEditingRowId }) {
 
   return (
     <>
+     
       <ContextMenu
         menuPosition={menuPosition}
         setMenuPosition={setMenuPosition}

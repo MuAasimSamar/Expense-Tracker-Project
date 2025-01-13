@@ -34,6 +34,7 @@ function App() {
             setEditingRowId={setEditingRowId}
           />
         </div>
+        <p className="table-info">Press a table row to delete or edit it.</p>
       </main>
     </>
   );
